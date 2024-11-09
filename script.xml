@@ -1,0 +1,165 @@
+<xml>
+    <crucificacao>
+        <tanach>
+            <value>Is 53:4-5</value>
+            <value>Sl 22:16-18</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 26:67-68</value>
+            <value>Mt 27:20-37</value>
+            <value>Jo 19:1-16</value>
+        </chadashah>
+    </crucificacao>
+
+    <mandamento>
+        <tanach>
+            <value>Ex 20:1-17</value>
+            <value>Dt 5:6-21</value>
+            <value>Dt 31:11-12</value>
+            <value>Nm 15:14-16</value>
+            <value>Is 56:6-7</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 5:17-19</value>
+            <value>Mt 19:16-17</value>
+            <value>Mt 22:36-40</value>
+            <value>Jo 14:20-21</value>
+            <value>Jo 15:10-14</value>
+        </chadashah>
+    </mandamento>
+
+    <escritura>
+        <tanach>
+            <value>Dt 4:1-2</value>
+            <value>Dt 13:1-5</value>
+            <value>Sl 19:7-10</value>
+            <value>Sl 119:100-107</value>
+            <value>Pv 30:5-6</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 15:5-9</value>
+            <value>Jo 17:14-17</value>
+            <value>Jo 4:23-24</value>
+        </chadashah>
+    </escritura>
+
+    <profeta>
+        <tanach>
+            <value>Dt 18:20-22</value>
+            <value>Jr 23:21-22</value>
+            <value>Ez 13:1-4</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 7:15-20</value>
+            <value>Mt 24:23-25</value>
+        </chadashah>
+    </profeta>
+
+    <oracao>
+        <tanach>
+            <value>Dt 18:11-12</value>
+            <value>Is 8:19-20</value>
+            <value>Ec 9:5-6</value>
+            <value>Jr 29:12-13</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 6:5-9</value>
+            <value>Jo 14:13-14</value>
+        </chadashah>
+    </oracao>
+
+    <igreja>
+        <tanach>
+            <value>Ex 19:5-6</value>
+            <value>Sl 22:27-28</value>
+            <value>Is 56:6-7</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 4:23-25</value>
+            <value>Jo 10:14-16</value>
+        </chadashah>
+    </igreja>
+
+    <trindade>
+        <tanach>
+            <value>Dn 3:23-25</value>
+            <value>Sl 2:6-12</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 19:16-17</value>
+            <value>Mt 23:8-10</value>
+            <value>Mt 26:38-39</value>
+            <value>Mt 27:40-46</value>
+            <value>Jo 3:16-18</value>
+            <value>Jo 5:19-31</value>
+            <value>Jo 10:25-38</value>
+            <value>Jo 11:41-42</value>
+            <value>Jo 12:45-50</value>
+            <value>Jo 14:28-31</value>
+            <value>Jo 17:1-7</value>
+            <value>Jo 17:18-26</value>
+        </chadashah>
+    </trindade>
+
+    <idolatria>
+        <tanach>
+            <value>Ex 20:3-5</value>
+            <value>Dt 4:15-19</value>
+            <value>Dt 5:7-9</value>
+            <value>Sl 115:4-8</value>
+            <value>Sl 135:15-18</value>
+            <value>Is 44:9-20</value>
+            <value>Jr 10:3-5</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 4:8-10</value>
+            <value>Mt 15:8-9</value>
+            <value>Jo 4:23-24</value>
+        </chadashah>
+    </idolatria>
+
+    <salvacao>
+        <tanach>
+            <value>Is 56:6-7</value>
+            <value>Is 59:20-21</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 7:21-23</value>
+            <value>Mt 10:5-6</value>
+            <value>Mt 15:22-28</value>
+            <value>Jo 4:19-22</value>
+            <value>Jo 10:14-16</value>
+            <value>Jo 14:3-6</value>
+        </chadashah>
+    </salvacao>
+
+    <sabado>
+        <tanach>
+            <value>Gn 2:2-3</value>
+            <value>Ex 16:23-30</value>
+            <value>Ex 20:8-11</value>
+            <value>Ex 20:8-11</value>
+            <value>Dt 5:12-15</value>
+            <value>Is 56:1-2</value>
+            <value>Is 58:13-14</value>
+            <value>Ez 20:11-13</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 12:10-12</value>
+            <value>Jo 9:1-14</value>
+        </chadashah>
+    </sabado>
+
+    <mulher>
+        <tanach>
+            <value>Ex 15:20-21</value>
+            <value>Jz 4:4-5</value>
+            <value>Jl 2:28-29</value>
+        </tanach>
+        <chadashah>
+            <value>Mt 28:7-9</value>
+            <value>Jo 4:39-42</value>
+            <value>Jo 20:17-18</value>
+        </chadashah>
+    </mulher>
+</xml>
