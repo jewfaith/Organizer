@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
-import os
-import sys
 from colorama import Fore, init
 import textwrap
+import sys
+import os
 
 init(autoreset=True)
 
@@ -36,7 +36,7 @@ class XmlLoader:
         for book in theme:
             tag_name = book.tag
             verses = [
-                "\n".join(textwrap.wrap(value.text, 32))
+                "\n".join(textwrap.wrap(value.text, 27))
                 for value in book.findall("value")
                 if value.text
             ]
@@ -50,17 +50,17 @@ class Display:
         os.system("cls" if os.name == "nt" else "clear")
 
     @staticmethod
-    def display_menu(bible):
+    def display_menu(xml):
         Display.cls()
         print(Fore.YELLOW + "\nOrganizer - XMLManager 2024")
         print(Fore.CYAN + "https://github.com/jewfaith\n")
-        print("=" * 32)
+        print("=" * 27)
 
-        for i, theme in enumerate(bible.keys(), start=1):
+        for i, theme in enumerate(xml.keys(), start=1):
             theme_wrapped = f"{i}. {theme.capitalize()}"
             print(f"{theme_wrapped:<25}")
 
-        print("=" * 32)
+        print("=" * 27)
 
     @staticmethod
     def display_verses(xml, theme):
@@ -68,15 +68,15 @@ class Display:
 
         if theme in xml:
             print(Fore.YELLOW + f"\n{theme.capitalize()}")
-            print("=" * 32)
+            print("=" * 27)
             for book, verses in xml[theme].items():
                 print(Fore.CYAN + f"\n{book.capitalize()}")
-                print("-" * 32)
+                print("-" * 27)
                 for i, verse in enumerate(verses, start=1):
-                    verse_wrapped = "\n".join(textwrap.wrap(f"{i}. {verse}", 32))
+                    verse_wrapped = "\n".join(textwrap.wrap(f"{i}. {verse}", 27))
                     print(verse_wrapped)
-                print("-" * 32)
-            print("=" * 32)
+                print("-" * 27)
+            print("=" * 27)
         else:
             print(Fore.RED + "Error: Theme not found")
 
